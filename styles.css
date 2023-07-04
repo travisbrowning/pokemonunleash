@@ -1,0 +1,30 @@
+body {
+  background-color: rgba(22, 121, 121, 0.624);
+}
+
+.button {
+  display: flex;
+  margin: auto;
+  font-size: 3em;
+  background-color: rgb(22, 121, 121);
+  border: rgba(225, 236, 246, 0.851) 5px solid;
+  border-radius: 15px;
+  color: rgba(225, 236, 246, 0.851);
+  margin-top: 30%;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.656);
+}
+
+button:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 5px 5px 25px rgba(237, 63, 63, 0.854);
+}
+
+.pokemon {
+  display: inline-block;
+  text-align: center;
+}
+
+.pokemon img {
+  display: block;
+}
